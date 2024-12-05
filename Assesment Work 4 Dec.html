@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .pricing-table {
+            display: flex;
+            gap: 20px;
+        }
+        .pricing-card {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 250px;
+        }
+        .pricing-card h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }
+        .pricing-card .price {
+            font-size: 2em;
+            color: #333;
+            margin: 10px 0;
+        }
+        .pricing-card ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+        .pricing-card ul li {
+            color: #333;
+        }
+        .pricing-card button {
+            background: #ff6600;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .pricing-card button:hover {
+            background: #e55a00;
+        }
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="pricing-card">
+            <h3>Basic</h3>
+            <div class="price">$11.99/month</div>
+            <ul>
+                <li>10GB Storage</li>
+                <li>1 User</li>
+                <li>Email Support</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="pricing-card">
+            <h3>Standard</h3>
+            <div class="price">$19.99/month</div>
+            <ul>
+                <li>50GB Storage</li>
+                <li>5 Users</li>
+                <li>Phone & Email Support</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+        <div class="pricing-card">
+            <h3>Premium</h3>
+            <div class="price">$49.99/month</div>
+            <ul>
+                <li>100GB Storage</li>
+                <li>10 Users</li>
+                <li>24/7 Support</li>
+            </ul>
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
